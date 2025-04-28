@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>BMI Calculate || code with sinikdho</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="main-heading">BMI নির্নয় করুন</h1>
+    <div class="main-div">
+        
+        <label for="InputWeight">আপনার ওজন দিন</label>
+        <input type="number" id="InputWeight" placeholder="আপনার ওজন  দিন ">
+        <label for="Inputheight">আপনার উচ্চতা দিন (ফিট)</label>
+        <input type="number" id="Inputheight" placeholder="আপনার উচ্চতা দিন ">
+        <button onclick="CalculateBmi()"  class="Btn">Calculate</button>
+
+        <p class="calculation-text">ফলাফল</p>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hind Siliguri", sans-serif;
+}
+body{
+    background-color: rgb(2, 60, 87);
+}
+
+.main-heading{
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.main-div{
+    width: 300px;
+    height: 400px;
+    border: 1.2px solid rgb(223, 223, 223);
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+ 
+    flex-direction: column;
+
+    
+    
+}
+
+label{
+    color: #ffffff;
+}
+input[type=number]{
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #0086bb;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+    padding: 10px;
+}
+
+input[type=number]:focus{
+    border: 2px solid #01b7ff;
+    border-radius: 4px;
+}
+
+input[type=number]::placeholder{
+    color: #a8a8a8;
+}
+
+  .Btn{
+    width: 60px;
+    height: 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #0086bb;
+    border-radius: 5px;
+    transition: all linear 0.1s ;
+    margin-top: 30px;
+
+  }
+
+  .Btn:hover{
+   background-color: #01b7ff;
+    transform: scale(1.1);
+    transition: all linear 0.1s ;
+  }
+
+  .calculation-text{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  label{
+    align-self: flex-start;
+    margin-left: 23px;
+    margin-top: 20px;
+  }
+
+  #result{
+    color: #f7ff01;
+    font-size: 21px;
+    font-weight: 500;
+  }
